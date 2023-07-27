@@ -11,4 +11,4 @@ RUN  pip install --upgrade pip && pip install -r requirements.pip
 
 EXPOSE 8080
 
-ENTRYPOINT ["python", "manager.py", "run", "--port=8080"]
+CMD ["python", "manager.py", "run", "--port=8080"]
