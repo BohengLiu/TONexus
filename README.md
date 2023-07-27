@@ -33,12 +33,17 @@ You could run the Web Server through the following commands
 python run ./manager.py
 ```
 
+
 ### Launch the Visualization Frontend
 
 When the Web Server run successfully, you could launch the visualization frontend through the following commands
 
 
-<TODO: Add frontend launch command>
+```
+cd frontend
+yarn && yarn dev
+```
+
 
 
 ## Architecture
@@ -60,6 +65,7 @@ Here the project layout and the description of each file or directory.
 │   └── docker-compose.local.yml
 ├── docs
 │   └── pics
+├── frontend               // frontend directory
 ├── manager.py             // Run the WebServer
 ├── requirements.pip
 ├── tests                  // Unittests for business
