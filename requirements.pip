@@ -10,3 +10,4 @@ psycopg2-binary==2.9.6
 sqlalchemy-utils==0.41.1
 httpx==0.24.1
 docopt==0.6.2
+Flask-SQLAlchemy==3.0.5
